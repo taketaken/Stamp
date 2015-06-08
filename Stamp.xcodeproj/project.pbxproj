@@ -13,6 +13,7 @@
 		32DD3D581B25A70300ED7944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DD3D571B25A70300ED7944 /* Images.xcassets */; };
 		32DD3D5B1B25A70300ED7944 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DD3D591B25A70300ED7944 /* LaunchScreen.xib */; };
 		32DD3D671B25A70300ED7944 /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD3D661B25A70300ED7944 /* StampTests.swift */; };
+		32DD3D731B2649C200ED7944 /* Stamp素材 in Resources */ = {isa = PBXBuildFile; fileRef = 32DD3D721B2649C200ED7944 /* Stamp素材 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		32DD3D601B25A70300ED7944 /* StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DD3D651B25A70300ED7944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32DD3D661B25A70300ED7944 /* StampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampTests.swift; sourceTree = "<group>"; };
+		32DD3D721B2649C200ED7944 /* Stamp素材 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Stamp素材"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				32DD3D541B25A70300ED7944 /* Main.storyboard */,
 				32DD3D571B25A70300ED7944 /* Images.xcassets */,
 				32DD3D591B25A70300ED7944 /* LaunchScreen.xib */,
+				32DD3D721B2649C200ED7944 /* Stamp素材 */,
 				32DD3D4E1B25A70300ED7944 /* Supporting Files */,
 			);
 			path = Stamp;
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DD3D731B2649C200ED7944 /* Stamp素材 in Resources */,
 				32DD3D561B25A70300ED7944 /* Main.storyboard in Resources */,
 				32DD3D5B1B25A70300ED7944 /* LaunchScreen.xib in Resources */,
 				32DD3D581B25A70300ED7944 /* Images.xcassets in Resources */,
@@ -409,6 +413,7 @@
 				32DD3D6C1B25A70300ED7944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32DD3D6D1B25A70300ED7944 /* Build configuration list for PBXNativeTarget "StampTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				32DD3D6F1B25A70300ED7944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -66,10 +66,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func selectBackground() {
+        //フォトライブラリやカメラのもととなるUIImagePickerControllerのインスタンスを作ります
         var imagePickerController: UIImagePickerController = UIImagePickerController()
+        //フォトライブラリを使うように設定します
         imagePickerController.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+        
         imagePickerController.delegate = self
+        //選んだ画像のサイズや位置を編集できるようにします
         imagePickerController.allowsEditing = true
+        //フォトライブラリを呼び出します
         self.presentViewController(imagePickerController, animated: true, completion: nil)
     }
     
